@@ -1,0 +1,224 @@
+body{
+   box-sizing: border-box;
+}
+
+.h2{
+    text-align: center;
+}
+
+
+.espada{
+    height: 250px;
+    width: 350px;
+    object-fit: cover;
+    padding: 1em;
+}
+
+.subtitulo-section{
+    text-align: center;
+}
+
+.contenedor-tarjeta-clase{
+    overflow: hidden;
+    height:max-content;
+    width: 350px;
+    border-radius: 5px;
+}
+
+
+.article-clases-cajas{
+    display: flex;
+    justify-content: center;
+}
+
+.titulo-tarjeta{
+    text-align: center;
+}
+
+.border{
+    height: max-content;
+    width: max-content;
+    border: 2px solid black;
+}
+
+th{
+    background-color: rgba(77, 77, 77, 0.686);
+}
+
+td{
+    text-align: center;
+    padding: 0.5em 2em;
+}
+
+tr{
+    background-color: rgba(216, 216, 216, 0.663);
+}
+
+
+.parrafo-relleno{
+    width: 75%;
+    text-align: justify;
+}
+
+
+.div-relleno, .div-tabla{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.centrar-lista{
+    margin-left: 20em;
+    max-width: max-content;
+}
+
+.footer{
+    display: flex;
+    text-align: center;
+    padding: 0.5em;
+    background-color: rgb(211, 211, 211);
+}
+.redes-sociales{
+    display: flex;
+    width: 100px;
+  
+}
+
+.icon{
+    height: 50px;
+    width: 50px;
+    padding: 0.3em;
+}
+
+.final{
+    text-align: center;
+    margin-left: 19em;
+}
+
+
+@media (max-width:1055px) {
+
+    body{
+        box-sizing: border-box;
+        overflow-y: auto;
+        overflow-x: hidden;
+        font-size: 2em;
+     }
+
+    .artes-marciales-logo{
+        display: none;
+    }
+    
+    /*quitar estilos a lista*/
+    .div-menu__ul{
+        list-style-type: none;
+    }
+    
+    /*Aplicacion de flexbox*/
+    header{
+        background-color:#EFE9E8;
+        min-width: 100%;
+        text-align: center;
+    }
+    
+    /*Aplicacion de flexbox para que los li se alineen*/
+    .div-menu__ul{
+    display: block;
+    width: 100%;
+    }
+    
+    .div-menu__a{
+        width: 100%;
+        font-size: 30px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .div-menu__li{
+        padding: 0.5em;
+        width: 100%;
+    }
+
+    .div-menu__li:hover{
+        background-color: rgba(106, 106, 106, 0.251);
+    }
+
+
+
+    /**/
+
+    .espada{
+        display: block;
+        height: 250px;
+        width: 250px;
+        object-fit: cover;
+        padding: 0.5em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .subtitulo-section{
+        text-align: center;
+    }
+    
+    .contenedor-tarjeta-clase{
+        overflow: hidden;
+        height:max-content;
+        width: 350px;
+        border-radius: 5px;
+    }
+    
+    
+    .article-clases-cajas{
+        display: block;
+        
+    }
+    
+    .titulo-tarjeta{
+        text-align: center;
+    }
+    
+    .border{
+        height: max-content;
+        width: max-content;
+        border: 2px solid black;
+    }
+
+    .contenedor-tarjeta-clase{
+        height: 100%;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .centrar-lista{
+        height: max-content;
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .redes-sociales{
+        width: max-content;
+        display: block;
+    }
+    
+    .icon{
+        height: 50px;
+        width: 50px;
+
+    }
+
+    .final{
+        margin-left: -0.5em;
+    }
+
+    .footer{
+        display: block;
+        text-align: center;
+        background-color: rgb(211, 211, 211);
+    }
+    
+}
+

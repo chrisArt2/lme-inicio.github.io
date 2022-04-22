@@ -1,0 +1,51 @@
+/*logo del menu*/
+.artes-marciales-logo{
+    height: 90px;
+    width: 90px;
+}
+
+/*quitar estilos a lista*/
+.div-menu__ul{
+    list-style-type: none;
+}
+
+/*Aplicacion de flexbox*/
+header{
+    background-color:#EFE9E8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 30vw;
+}
+
+.alinear{
+    display: flex;
+    justify-content: center;
+}
+
+
+/*Aplicacion de flexbox para que los li se alineen*/
+.div-menu__ul{
+display: flex;
+}
+
+.div-menu__a{
+    padding: 1em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-right: 3em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
